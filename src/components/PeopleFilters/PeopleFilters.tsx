@@ -1,4 +1,4 @@
-export const PeopleFilters = () => {
+const PeopleFilters = () => {
   return (
     <nav className="panel">
       <p className="panel-heading">Filters</p>
@@ -91,3 +91,5 @@ export const PeopleFilters = () => {
     </nav>
   );
 };
+
+export default PeopleFilters;
